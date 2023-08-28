@@ -1,3 +1,6 @@
+
+# Cosine distance is the simplest operation!
+
 import numpy as np
 
 def cos_dist(e1,e2):
