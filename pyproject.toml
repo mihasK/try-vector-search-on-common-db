@@ -12,12 +12,15 @@ jupyter = "^1.0.0"
 sqlalchemy = "^2.0.20"
 pgvector = "^0.2.1"
 psycopg2-binary = "^2.9.7"
-psycopg2 = "^2.9.7"
 psycopg = {version = "^3.1.10", extras = ["binary"]}
 numpy = "1.24.3"
 numba = "^0.57.1"
 tqdm = "^4.66.1"
 tabulate = "^0.9.0"
+redis = {version = "^5.0.0", extras = ["hiredis"]}
+json-numpy = "^1.0.1"
+pandas = "^2.1.0"
+orjson = "^3.9.5"
 
 
 [build-system]
